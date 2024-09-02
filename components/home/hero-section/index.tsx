@@ -22,7 +22,7 @@ export default function HeroSection() {
                 <div className="border-r-2 bg-w border-white h-12 md:h-full mx-2"></div>
                 <div className="text-w flex flex-col justify-center items-center w-24">
                     <span className="font-bold text-xl lg:text-4xl">67</span>
-                    <p className="text-white font-mont text-sm md:text-xl lg:text-2xl text-center"><a href="/admin/members" className="text-a">proficionais</a> formados!</p>
+                    <p className="text-white font-mont text-sm md:text-xl lg:text-2xl text-center"><a href="/admin/members" className="text-a">profissionais</a> formados!</p>
                 </div>
             </div>
         </section>

@@ -19,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className="font-mont">
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
