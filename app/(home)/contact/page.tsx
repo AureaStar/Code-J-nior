@@ -1,8 +1,8 @@
 'use client';
 
-import ContactForm from "@/components/contact/form";
-import Maps from "@/components/contact/maps";
-import ContactRedes from "@/components/contact/redes";
+import ContactForm from "@/components/home/contact/form";
+import Maps from "@/components/home/contact/maps";
+import ContactRedes from "@/components/home/contact/redes";
 import Title from "@/components/title";
 import Image from "next/image";
 

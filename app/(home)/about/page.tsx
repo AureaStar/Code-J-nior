@@ -1,7 +1,7 @@
 'use client';
 
-import Sobre from "@/components/about/aboutus";
-import Pilares from "@/components/about/pilars";
+import Sobre from "@/components/home/about/aboutus";
+import Pilares from "@/components/home/about/pilars";
 
 export default function SobreNos() {
   return (

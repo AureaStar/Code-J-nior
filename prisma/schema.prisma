@@ -18,3 +18,10 @@ model Membro {
   published Boolean
 }
 
+model Post {
+  id        Int     @id @default(autoincrement())
+  title     String
+  content   String
+  image     String
+  published Boolean
+}

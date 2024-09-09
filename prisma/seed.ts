@@ -41,9 +41,21 @@ async function main() {
     { name: "João Vitor Fernandes Ribeiro Carneiro Ramos", email: "joaovitor.fernandes@codejr.com.br", cargo: "Gerente", published: true },
   ];
 
+  const postsData = [
+    { title: "Hello World", content: "This is the first post of the blog", published: true, image: "image1.jpg" },
+    { title: "Hello World 2", content: "This is the second post of the blog", published: true, image: "image2.jpg" },
+    { title: "Hello World 3", content: "This is the third post of the blog", published: true, image: "image3.jpg" },
+  ];  
+
   for (const membro of membrosData) {
     await prisma.membro.create({
       data: membro,
+    });
+  }
+
+  for (const post of postsData) {
+    await prisma.post.create({
+      data: post,
     });
   }
 
